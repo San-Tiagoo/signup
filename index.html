@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--body-->
+    <section class="main">
+        <div class="bar">
+            <div class="menu">
+                <p>9:41</p>
+                <img src="images/container.svg" alt="">
+            </div>
+        </div>
+
+        <!--logo-->
+        <div class="logo">
+            <img src="images/Logo_small.svg" alt="">
+            <h1>For Individuals</h1>
+            <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+
+        <!--form-->
+        <form action="mailto: ugboyasantiago@gmail.com">
+        <!--form elements-->
+        <label for="firstname">
+            First Name
+        </label><br><br>
+        <input type="text" name="firstname" id="firstname" placeholder="Tolu" required><br><br>
+
+        <label for="lastname">Last Name</label><br><br>
+        <input type="text" name="lastname" id="lastname" placeholder="" required><br><br>
+
+        <label for="gender">Gender</label><br><br>
+        <select name="gender" id="gender">
+            <option value="selection" disabled selected>Select here</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br><br>
+
+        <label for="dob">Date of Birth</label><br><br>
+        <input type="text" id="dob"  onfocus="(this.type='date')" placeholder="Select here" required><br><br>
+
+        <label for="weight">Weight (KG)</label><br><br>
+        <input type="number" name="weight" id="weight" placeholder="Enter Weight" required><br><br>
+
+        <label for="height">Height (CM)</label><br><br>
+        <input type="number" name="height" id="height" placeholder="Enter Height here.." required><br><br>
+
+        <label for="activity">Activity Level</label><BR></BR>
+        <select name="activity" id="activity" required>
+            <option value="select" selected disabled>Select here</option>
+            <option value="Active">Active</option>
+            <option value="inactive">Not So Active</option>
+            <option value="inactive">Inactive</option>
+            <option value="unanswer">Do not wish to answer</option>
+        </select><br><br>
+
+        <label for="password">Password</label><br><br>
+        <input type="password" name="password" id="password" minlength="8" required><br><br>
+
+        <!--Button-->
+        <button type="btn" value="submit"><a href="mailto:ugboyasantiago@gmail.com">Register</a></button>
+
+        <p id="root">By Clicking Register, you agree to our <a href="https://github.com/San-Tiagoo">Terms of Use</a> and our <a href="https://github.com/San-Tiagoo">Privacy Policy</a>
+        </p>
+        </form>
+    </section>
+</body>
+</html>
